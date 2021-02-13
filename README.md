@@ -6,6 +6,14 @@ Library of methods working on Docker Hub . Methods get and parse Docker containe
 
 Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
 
+# Dependency 
+ 
+. package Newtonsoft.Json;
+
+. Packages referenced in the Library :
+
+
+
 # How to use 
 
 
