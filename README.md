@@ -26,6 +26,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG
 3. in your c# code use the method(s) you choose in the lib
 4. include the reference : using DockerLibr;
 
+https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG
+![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG "Logo Title Text 1")
 
 # List of Methods in the library 
 
