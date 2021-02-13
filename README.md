@@ -34,7 +34,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG
 | Methods :                   |                                                                                                                                 |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------|
 | DockerPullCount             |  : Returns the number of pulls on a given Docker repository                                                                                       | ----------------------------|                                                                                                                                       |           
-| DockerREpInfos              |  : Returns the details informations on iamges in repository                      
+| DockerREpInfos              |  : Returns the details informations on the repository (idname/repname)                      
 |-----------------------------| 
  
 
