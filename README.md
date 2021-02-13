@@ -18,6 +18,11 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG
 
 # How to use 
 
+1. Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
+2. USe Visual Studio or tool that use Nuget
+3. in your c# code use the method(s) you choose in the lib
+4. include the reference : using DockerLibr;
+
 
 # List of Methods in the library 
 
