@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <Authors>Henri Guillot</Authors>
+    <Company>Henri Guillot</Company>
+    <Description>Library of methods working on Docker Hub . Methods get and parse Docker containers &amp; images in Docker Hub repository
+Doc at : https://github.com/guihen01/DockerLibr</Description>
+    <Copyright>Henri Guillot</Copyright>
+    <PackageTags>Docker Pull Tag images</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/guihen01/DockerLibr</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/guihen01/DockerLibr</RepositoryUrl>
+    <PackageReleaseNotes>Method DockerPullCount()  : Returns the number of pulls on a given Docker repository</PackageReleaseNotes>
+    <PackageId>DockerLibr</PackageId>
+    <Product>DockerLib</Product>
+    <PackageIcon>Henri Guillot.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Doc\Henri Guillot.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
