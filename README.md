@@ -1,5 +1,6 @@
 # DockerLibr
 [![DockerLibr on fuget.org](https://www.fuget.org/packages/DockerLibr/badge.svg)](https://www.fuget.org/packages/DockerLibr)
+[![NuGet](https://img.shields.io/nuget/v/DockerLibr.svg)](https://www.nuget.org/packages/DockerLibr/) 
 
 Library of methods working on Docker Hub . Methods get and parse Docker containers & images in Docker Hub repository
 
