@@ -35,3 +35,9 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG
 
 # Method DockerPullCount
 
+. Method that returns the number of pulls, made on your Docker repository or on a given Docker repository
+
+. repository of of the method : https://github.com/guihen01/Docker.PullCount
+
+https://github.com/guihen01/Docker.PullCount/blob/main/Doc/Capture1.PNG
+![alt text](https://github.com/guihen01/Docker.PullCount/blob/main/Doc/Capture1.PNG "Logo Title Text 1")
