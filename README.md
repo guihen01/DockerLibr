@@ -14,8 +14,7 @@ Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG
 
-![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG"Logo) Title Text 1")
-
+![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG "Logo Title Text 1")
 
 # How to use 
 
