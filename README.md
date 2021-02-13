@@ -5,3 +5,6 @@ Library of methods working on Docker Hub . Methods get and parse Docker containe
 # Download
 
 Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
+
+# How to use 
+
