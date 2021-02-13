@@ -12,6 +12,8 @@ Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
 
 
 # Dependency 
+
+. use with Netcoreapp5.0 
  
 . package Newtonsoft.Json;
 
