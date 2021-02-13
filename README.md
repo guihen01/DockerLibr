@@ -11,5 +11,5 @@ Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
 
 # List of Methods in the library 
 
-
+. Method DockerPullCount()  : Returns the number of pulls on a given Docker repository
 
