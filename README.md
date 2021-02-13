@@ -23,9 +23,6 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG
 
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture1.PNG "Logo Title Text 1")
 
-https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
-![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG "Logo Title Text 1")
-
 # How to use 
 
 1. Download the nuget package at : https://www.nuget.org/packages/DockerLibr/
@@ -35,6 +32,10 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG "Logo Title Text 1")
+
+https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
+![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG "Logo Title Text 1")
+
 
 # List of Methods in the library 
 
