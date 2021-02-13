@@ -33,3 +33,5 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/List%20of%20objects.PNG
 
 . Method DockerPullCount()  : Returns the number of pulls on a given Docker repository
 
+# Method DockerPullCount
+
