@@ -44,7 +44,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 | DockerPullCount             |  : Returns the number of pulls on a given Docker repository                                                                                       | ----------------------------|                                                                                                                                       |           
 | DockerREpInfos              |  : Returns the details informations on the repository (idname/repname)                      
 |-----------------------------| 
- 
+|  DockerWrToJson             |  Write informations obtained from Docker Hub to a file (format json) 
+
 
 
 # Method DockerPullCount
