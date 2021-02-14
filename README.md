@@ -47,6 +47,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 |  DockerWrToJson             |  Write informations obtained from Docker Hub to a file (format json) 
 |  DockerWrToTxt              |  Write informations obtained from Docker Hub to a file (format txt)
 |  GetHttpRep                 |  Simple Get Http Request with no authorization needed
+|  DockGetTagsOb              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string )
+|  & DockGetTags              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string formated as text)
 
 # Method DockerPullCount
 
