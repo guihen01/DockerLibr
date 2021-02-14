@@ -68,6 +68,9 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG
 
 . Returned in a string with json format (DockGetTags with format compact json & DockGetTagsOb with format txt (more visible)
 
+https://github.com/guihen01/DockerLibr/blob/main/Doc/DockGetTagsOb.PNG
+![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/DockGetTagsOb.PNG "Logo Title Text 1")
+
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG "Logo Title Text 1")
 
