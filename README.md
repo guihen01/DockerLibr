@@ -62,6 +62,10 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG
 
 # Methods DockGetTagsOb & DockGetTags 
 
+. Methods that returns all tags or specific tag of a repository: ( Docker Hub repository) 
+
+. Returned in a string with json format 
+
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG "Logo Title Text 1")
 
