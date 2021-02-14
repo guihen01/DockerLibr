@@ -60,7 +60,8 @@ https://github.com/guihen01/Docker.PullCount/blob/main/Doc/Capture1.PNG
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG "Logo Title Text 1")
 
-# Methods DockGetTagsOb & DockGetTagsOb 
+# Methods DockGetTagsOb & DockGetTags 
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG "Logo Title Text 1")
+
