@@ -12,14 +12,11 @@ Doc at : https://github.com/guihen01/DockerLibr</Description>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/guihen01/DockerLibr</PackageProjectUrl>
     <RepositoryUrl>https://github.com/guihen01/DockerLibr</RepositoryUrl>
-    <PackageReleaseNotes>new methods added :  DockerREpInfos() : Returns the details informations on a given Docker repository
-DockerWrToTxt : Write informations obtained from Docker Hub to a file (format txt)
-DockerWrToJson : Write informations obtained from Docker Hub to a file (format json)
-GetHttpRep :</PackageReleaseNotes>
+    <PackageReleaseNotes>new methods added : DockGetTagsOb &amp; DockGetTags   Retruns all tags or specific tag of a Docker Hub repository  ( results as  json string</PackageReleaseNotes>
     <PackageId>DockerLibr</PackageId>
     <Product>DockerLib</Product>
-    <PackageIcon>Henri Guillot.png</PackageIcon>
-    <Version>1.0.1</Version>
+    <PackageIcon>Logo 3 Docker.PNG</PackageIcon>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +24,7 @@ GetHttpRep :</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Doc\Henri Guillot.png">
+    <None Include="Logo 3 Docker.PNG">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

@@ -1,6 +1,4 @@
-﻿//#define DEBUG
-
-using System;
+﻿using System;
 using System.Net;
 using System.Net.Http;
 using System.Text;
@@ -13,7 +11,7 @@ using System.Linq;
 
 namespace DockerLibr
 {
-    public class Dck
+    public static partial class Dck
     {
         /// <summary>
         /// Get the pull count on the Docker repository (repname is the Docker repository name)
@@ -151,7 +149,9 @@ namespace DockerLibr
             try
             {
                 response = await client.GetAsync(url);
+#if DEBUG
                 Console.WriteLine(response.StatusCode);
+#endif
                 if (response == null)
                 {
                     throw new ArgumentNullException();
