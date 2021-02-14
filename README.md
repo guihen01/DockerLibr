@@ -46,7 +46,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 |-----------------------------| 
 |  DockerWrToJson             |  Write informations obtained from Docker Hub to a file (format json) 
 |  DockerWrToTxt              |  Write informations obtained from Docker Hub to a file (format txt)
-
+|  GetHttpRep                 |  Simple Get Http Request with no authorization needed
 
 # Method DockerPullCount
 
