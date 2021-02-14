@@ -69,3 +69,5 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Exampe%20of%20How%20to%20use.PNG "Logo Title Text 1")
 
+https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG
+![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG "Logo Title Text 1")
