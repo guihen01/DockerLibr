@@ -39,6 +39,72 @@ namespace DockerLibr
         }
 
         /// <summary>
+        /// Get the informations on the Docker repository (repname is the Docker repository name)
+        /// </summary>
+        /// <param name="repname"> name of the Docker repository on whish you want to know the pulls number </param>
+        /// <returns>The Response details  </returns>
+        public static async System.Threading.Tasks.Task<string> DockerREpInfos(string repname)
+        {
+            string url;
+            url = "https://hub.docker.com/v2/repositories/" + repname;
+
+            string Response;
+            Response = await GetHttpRep(url);
+#if DEBUG
+            Console.WriteLine(Response);
+#endif
+            return Response;
+        }
+
+        /// <summary>
+        /// Write informations obtained from Docker Hub to a file (format json)
+        /// </summary>
+        /// <param name="Data"> Data in Json format, to write to file </param>
+        /// <param name="filename"> name of the data file </param>
+        /// <returns></returns>
+        public static void DockerWrToJson(string Data, string filename)
+        {
+            string dir = Directory.GetCurrentDirectory();
+            string path = dir + "/" + filename + ".json";
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            using (var tw = new StreamWriter(path, true))
+            {
+                tw.WriteLine(Data.ToString());
+                tw.Close();
+            }
+#if DEBUG
+            Console.WriteLine(Data);
+#endif
+            
+        }
+
+        /// <summary>
+        /// Write informations obtained from Docker Hub to a file (format txt)
+        /// </summary>
+        /// <param name="Ob"> Object of type JObject Json, to write to text file </param>
+        /// <param name="filename"> name of the data file </param>
+        /// <returns></returns>
+        public static void DockerWrToTxt(JObject Ob, string filename)
+        {
+            string dir = Directory.GetCurrentDirectory();
+            string path = dir + "/" + filename + ".txt";
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            using (var tw = new StreamWriter(path, true))
+            {
+                tw.WriteLine(Ob.ToString());
+                tw.Close();
+            }
+        }
+
+
+
+        /// <summary>
         /// Parsing the response to get the field "pull_count
         /// </summary>
         /// <param name="Response"></param>
