@@ -45,7 +45,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 | DockerREpInfos              |  : Returns the details informations on the repository (idname/repname)                      
 |-----------------------------| 
 |  DockerWrToJson             |  Write informations obtained from Docker Hub to a file (format json) 
-
+|  DockerWrToTxt              |  Write informations obtained from Docker Hub to a file (format txt)
 
 
 # Method DockerPullCount
