@@ -81,7 +81,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG "Logo Title Text 1")
 
 # DockContList 
-. Method that returns the detaisl list of containers hosted on your local or remote host server or computer  
+. Method that returns the detail list of containers hosted on your local or remote host server or computer  
 
 . repository of of the method : ....
 
