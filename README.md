@@ -81,7 +81,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG "Logo Title Text 1")
 
 # DockContList 
-. Method that returns the detail list of containers hosted on your local or remote host server or computer  
+. Method that returns the detail list of containers hosted on your local or remote host server or computer.
+Method doesnt use curl (inref) but uses HHTP client with GetHttpRep() method
 https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG "Logo Title Text 1")
 
