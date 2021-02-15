@@ -50,6 +50,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 |  DockGetTagsOb              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string )
 |  & DockGetTags              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string formated as text)
 |  DockContList               |  List docker containers – Get the Docker container list with details (results as  json string)
+|  DockImageList              |  List images on local or remote host computer or server
 
 # Method DockerPullCount
 
@@ -87,5 +88,8 @@ Method doesnt use curl (inref) but uses HTTP client with GetHttpRep() method.
 https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG "Logo Title Text 1")
 
+# DockImageList
+. Method that list local or remote images , hosted on local or remote computers
 
+![alt text](  "Logo Title Text 1")
 
