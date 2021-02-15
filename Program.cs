@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
@@ -198,6 +199,74 @@ namespace DockerLibr
 
             return result;
         }
+
+        /// <summary>
+        /// Simple Get Http Request with  authorization 
+        /// </summary>
+        /// <param name="url"> url end point of the web server on which to send the Rest API POST Request</param>
+        /// <returns></returns>
+        public static async Task<string> GetHttpRepAuth(string username, string password, string url)
+        {
+            var client = new HttpClient();
+            var base64String = Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}"));
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", base64String);
+
+            HttpResponseMessage response;
+            response = new HttpResponseMessage();
+            string result = " ";
+            try
+            {
+                response = await client.GetAsync(url);
+#if DEBUG
+                Console.WriteLine(response.StatusCode);
+#endif
+                if (response == null)
+                {
+                    throw new ArgumentNullException();
+                }
+                if (response.StatusCode == HttpStatusCode.Unauthorized) //https://docs.microsoft.com/en-us/dotnet/api/system.net.httpstatuscode?view=net-5.0
+                {
+                    throw new Unauthorized();
+                }
+
+                result = await response.Content.ReadAsStringAsync();
+                client.Dispose();
+            }
+            catch (Unauthorized e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine("account not authorized to this sever or bad account ");
+
+            }
+            catch (ArgumentNullException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine("Response is null");
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("The requestUri must be an absolute URI or BaseAddress must be set.");
+                Console.WriteLine(e.Message);
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine("The request failed due to an underlying issue such as network connectivity, DNS failure, server certificate validation or timeout");
+                Console.WriteLine(e.Message);
+            }
+            catch (TaskCanceledException e)
+            {
+                Console.WriteLine(".NET Core and .NET 5.0 and later only: The request failed due to timeout.");
+                Console.WriteLine(e.Message);
+            }
+
+            return result;
+        }
+
 
         [Serializable]
         internal class Unauthorized : Exception

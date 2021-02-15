@@ -12,11 +12,13 @@ Doc at : https://github.com/guihen01/DockerLibr</Description>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/guihen01/DockerLibr</PackageProjectUrl>
     <RepositoryUrl>https://github.com/guihen01/DockerLibr</RepositoryUrl>
-    <PackageReleaseNotes>new methods added : DockGetTagsOb &amp; DockGetTags   Retruns all tags or specific tag of a Docker Hub repository  ( results as  json string</PackageReleaseNotes>
+    <PackageReleaseNotes>new methods added :
+ DockGetTagsOb &amp; DockGetTags   Retruns all tags or specific tag of a Docker Hub repository  ( results as  json string
+DockContList : List all containers in a local or remote host server</PackageReleaseNotes>
     <PackageId>DockerLibr</PackageId>
     <Product>DockerLib</Product>
     <PackageIcon>Logo 3 Docker.PNG</PackageIcon>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
