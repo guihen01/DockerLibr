@@ -49,6 +49,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 |  GetHttpRep                 |  Simple Get Http Request with no authorization needed
 |  DockGetTagsOb              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string )
 |  & DockGetTags              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string formated as text)
+|  DockContList               |  List docker containers – Get the Docker container list with details (results as  json string)
 
 # Method DockerPullCount
 
@@ -78,3 +79,10 @@ In this example the Docker Hub repository has 2 tags :
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG "Logo Title Text 1")
+
+# DockContList 
+. Method that returns the detaisl list of containers hosted on your local or remote host server or computer  
+
+. repository of of the method : ....
+
+
