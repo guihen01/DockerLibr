@@ -45,14 +45,25 @@ namespace DockerLibr
         /// <param name="url"> name of the server url ( on whish you want to get the list of paused containers)
         /// examples : host://localhost   or http://192.168.58.1 </param>
         /// <returns> paused containers list </returns>
-        public static async Task<String> DockContPaused(string url)
+        public static async Task<String[]> DockContPaused(string url)
         {
             // url : adress of the local or remote server hosting the containers
             string url1;
             url1 = url + ":2375" + "/containers/json?filters={\"status\":[\"paused\"]}";
-            string Response;
-            Response = await Dck.GetHttpRep(url1);
-            return Response;
+            string Response1,Response2;
+            
+            Response1 = await Dck.GetHttpRep(url1);
+
+            JArray Ob;
+            Ob = JArray.Parse(Response1);   // for this Docker server endpoint  the data are in JArray format
+            Response2 = Ob.ToString();
+
+            String[] Out = new string[2];
+            Out[0] = Response1;    // container info in json compact format  Jarray type of data
+            Out[1] = Response2;    // container info in json text format  JArray type of data
+
+
+            return Out;
         }
 
         //GET /containers/json?filters={"status": ["running"]} 
@@ -65,14 +76,25 @@ namespace DockerLibr
         /// <param name="url"> name of the server url
         /// examples : host://localhost   or http://192.168.58.1 </param>
         /// <returns> running containers list </returns>
-        public static async Task<String> DockContRunning(string url)
+        public static async Task<String[]> DockContRunning(string url)
         {
             // url : adress of the local or remote server hosting the containers
             string url1;
             url1 = url + ":2375" + "/containers/json?filters={\"status\":[\"running\"]}";
-            string Response;
-            Response = await Dck.GetHttpRep(url1);
-            return Response;
+            string Response1, Response2;
+            
+            Response1 = await Dck.GetHttpRep(url1);
+            
+            JArray Ob;
+            Ob = JArray.Parse(Response1);   // for this Docker server endpoint  the data are in JArray format
+            Response2 = Ob.ToString();
+            //Console.WriteLine(Response2);
+            
+            String[] Out = new string[2];
+            Out[0] = Response1;    // container info in json compact format  Jarray type of data
+            Out[1] = Response2;    // container info in json text format  JArray type of data
+
+            return Out;
         }
 
 
