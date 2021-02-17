@@ -44,13 +44,15 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 | DockerPullCount             |  : Returns the number of pulls on a given Docker repository                                                                                       | ----------------------------|                                                                                                                                       |           
 | DockerREpInfos              |  : Returns the details informations on the repository (idname/repname)                      
 |-----------------------------| 
-|  DockerWrToJson             |  Write informations obtained from Docker Hub to a file (format json) 
-|  DockerWrToTxt              |  Write informations obtained from Docker Hub to a file (format txt)
-|  GetHttpRep                 |  Simple Get Http Request with no authorization needed
-|  DockGetTagsOb              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string )
-|  & DockGetTags              |  Returns all tags or specific tag of a Docker Hub repository  ( results as  json string formated as text)
-|  DockContList               |  List docker containers – Get the Docker container list with details (results as  json string)
-|  DockImageList              |  List images on local or remote host computer or server
+|  DockerWrToJson             | Write informations obtained from Docker Hub to a file (format json) 
+|  DockerWrToTxt              | Write informations obtained from Docker Hub to a file (format txt)
+|  GetHttpRep                 | Simple Get Http Request with no authorization needed
+|  DockGetTagsOb              | Returns all tags or specific tag of a Docker Hub repository  ( results as  json string )
+|  & DockGetTags              | Returns all tags or specific tag of a Docker Hub repository  ( results as  json string formated as text)
+|  DockContList               | List docker containers – Get the Docker container list with details (results as  json string)
+|  DockImageList              | List images on local or remote host computer or server
+|  DockContPaused             | List all paused containers  
+|  DockContRunning            | List all containers running    
 
 # Method DockerPullCount
 
@@ -92,4 +94,5 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG
 . Method that list local or remote images , hosted on local or remote computers
 https://github.com/guihen01/DockerLibr/blob/main/Doc/DockImagesList.PNG
 ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/DockImagesList.PNG "Logo Title Text 1")
+
 
