@@ -118,6 +118,9 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning-2.P
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG
 ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG  "Logo Title Text 1")
  
+ As we can see in this example, only 1 container was in a running state
+  ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/images1.PNG  "Logo Title Text 1")
+ 
  ============================================================================================
  
 # DockContPaused
