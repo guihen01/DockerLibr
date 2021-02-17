@@ -54,6 +54,7 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/How%20to%20use.PNG
 |  DockContPaused             | List all paused containers  
 |  DockContRunning            | List all containers running    
 
+============================================================================================
 # Method DockerPullCount
 
 . Method that returns the number of pulls, made on your Docker repository or on a given Docker repository
@@ -66,6 +67,7 @@ https://github.com/guihen01/Docker.PullCount/blob/main/Doc/Capture1.PNG
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockerPullCount.PNG "Logo Title Text 1")
 
+============================================================================================
 # Methods DockGetTagsOb & DockGetTags 
 
 . Methods that returns all tags or specific tag of a repository: ( Docker Hub repository) 
@@ -83,7 +85,7 @@ In this example the Docker Hub repository has 2 tags :
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-method-1.PNG "Logo Title Text 1")
 
-==============================================================================================
+============================================================================================
 
 # DockContList 
 . Method that returns the detail list of containers hosted on your local or remote host server or computer.
@@ -92,10 +94,14 @@ Method doesnt use curl (inref) but uses HTTP client with GetHttpRep() method.
 https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG
 ![alt text](https://github.com/guihen01/DockerLibr/blob/main/Doc/DockContList.PNG "Logo Title Text 1")
 
+============================================================================================
+
 # DockImageList
 . Method that list local or remote images , hosted on local or remote computers
 https://github.com/guihen01/DockerLibr/blob/main/Doc/DockImagesList.PNG
 ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/DockImagesList.PNG "Logo Title Text 1")
+
+============================================================================================
 
 # DockContRunning
 . Method that get the running containers informations . Returns data in a string[2] format . String[0] contain data in a json compact format, string[1] contain data in a json text format
@@ -111,6 +117,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning-2.P
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG
 ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG  "Logo Title Text 1")
+ 
+ ============================================================================================
  
 # DockContPaused
 
