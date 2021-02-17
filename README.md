@@ -97,7 +97,8 @@ https://github.com/guihen01/DockerLibr/blob/main/Doc/DockImagesList.PNG
 
 # DockContRunning
 . Method that get the running containers informations . Returns data in a string[2] format . String[0] contain data in a json compact format, string[1] contain data in a json text format
-https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG
+https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning-2.PNG
+![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning-2.PNG  "Logo Title Text 1")
 
 https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG
 ![alt text]( https://github.com/guihen01/DockerLibr/blob/main/Doc/Capture-DockContRunning.PNG  "Logo Title Text 1")
