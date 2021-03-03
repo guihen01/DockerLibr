@@ -1,4 +1,6 @@
-# Method that returns the number of pulls, made on your Docker repository or on a given Docker repository
+# Method DockerPullCount
+
+. Method that returns the number of pulls, made on your Docker repository or on a given Docker repository
 
 . repository of  the method : https://github.com/guihen01/Docker.PullCount
 
